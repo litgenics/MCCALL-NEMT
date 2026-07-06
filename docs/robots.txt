@@ -1,0 +1,5 @@
+User-Agent: *
+Allow: /
+Disallow: /api/
+
+Sitemap: https://zoruhammah-cmyk.github.io/MCCall-NEMT-/sitemap.xml
