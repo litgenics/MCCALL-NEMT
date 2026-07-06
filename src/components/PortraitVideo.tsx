@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { Play, Pause, Volume2, VolumeX } from "lucide-react";
 import { cn } from "@/lib/utils";
 
-const VIDEO_SRC = "/videos/video1.mp4";
+const VIDEO_SRC = `${process.env.NEXT_PUBLIC_BASE_PATH || ""}/videos/video1.mp4`;
 
 export function PortraitVideo({
   variant = "default",

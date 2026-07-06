@@ -31,8 +31,8 @@ jobs:
       - name: Build static site
         run: npm run build
         env:
-          NEXT_PUBLIC_BASE_PATH: /MCCall-NEMT-
-          NEXT_PUBLIC_SITE_URL: https://zoruhammah-cmyk.github.io/MCCall-NEMT-
+          NEXT_PUBLIC_BASE_PATH: /MCCALL-NEMT
+          NEXT_PUBLIC_SITE_URL: https://litgenics.github.io/MCCALL-NEMT
 
       - name: Deploy to docs folder on main
         uses: peaceiris/actions-gh-pages@v4

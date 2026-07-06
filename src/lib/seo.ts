@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { COMPANY } from "./constants";
 
 export const SITE_URL =
-  process.env.NEXT_PUBLIC_SITE_URL || "https://zoruhammah-cmyk.github.io/MCCall-NEMT-";
+  process.env.NEXT_PUBLIC_SITE_URL || "https://litgenics.github.io/MCCALL-NEMT";
 
 export function absoluteUrl(path: string) {
   return `${SITE_URL}${path.startsWith("/") ? path : `/${path}`}`;

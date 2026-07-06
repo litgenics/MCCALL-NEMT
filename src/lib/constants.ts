@@ -1,3 +1,5 @@
+const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH || "";
+
 export const COMPANY = {
   name: "McCall Ambulance Service",
   shortName: "McCall",
@@ -27,10 +29,10 @@ export const COMPANY = {
     "https://www.google.com/maps/place/McCall+Ambulance+Service/@42.2985883,-71.0556027,17z",
   established: "Serving Boston families for over a decade",
   logo: {
-    full: "/images/mccall-logo.png",
-    header: "/images/mccall-logo-header.png",
-    footer: "/images/mccall-logo-footer.png",
-    og: "/images/og-image.jpg",
+    full: `${BASE_PATH}/images/mccall-logo.png`,
+    header: `${BASE_PATH}/images/mccall-logo-header.png`,
+    footer: `${BASE_PATH}/images/mccall-logo-footer.png`,
+    og: `${BASE_PATH}/images/og-image.jpg`,
   },
 } as const;
 
