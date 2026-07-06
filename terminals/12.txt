@@ -1,0 +1,17 @@
+---
+pid: 12112
+cwd: "C:\Leads\NEMT Website"
+command: "Set-Location \"C:\\Leads\\NEMT Website\"; npm run dev"
+started_at: 2026-07-06T19:28:14.686Z
+running_for_ms: 2055006  
+---
+
+> mccall-ambulance@1.0.0 dev
+> next dev
+
+   ▲ Next.js 15.5.20
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.18.24:3000
+
+ ✓ Starting...
+ ✓ Ready in 3.3s

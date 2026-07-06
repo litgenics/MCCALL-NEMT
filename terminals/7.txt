@@ -1,0 +1,59 @@
+---
+pid: 4256
+cwd: "C:\Leads\NEMT Website"
+command: "Set-Location \"C:\\Leads\\NEMT Website\"; npm run dev"
+started_at: 2026-07-06T18:41:48.697Z
+running_for_ms: 4839995  
+---
+
+> mccall-ambulance@1.0.0 dev
+> next dev
+
+   ▲ Next.js 15.5.20
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.18.24:3000
+
+ ✓ Starting...
+ ✓ Ready in 3.1s
+ ○ Compiling / ...
+ ✓ Compiled / in 16.1s (1644 modules)
+ GET / 200 in 18366ms
+ ✓ Compiled in 2.6s (735 modules)
+ ✓ Compiled in 383ms (735 modules)
+ ✓ Compiled in 451ms (735 modules)
+ ✓ Compiled in 350ms (735 modules)
+ ✓ Compiled in 429ms (735 modules)
+ ✓ Compiled in 421ms (735 modules)
+ ✓ Compiled in 559ms (735 modules)
+ ✓ Compiled in 360ms (735 modules)
+ ✓ Compiled in 340ms (735 modules)
+ ✓ Compiled in 447ms (735 modules)
+ ✓ Compiled in 415ms (735 modules)
+ GET / 200 in 494ms
+ ⨯ upstream image response failed for https://images.unsplash.com/photo-1584438784894-089d6a62b8f0?w=800&q=80 404
+ ○ Compiling /services ...
+ ✓ Compiled /services in 1881ms (1622 modules)
+ GET /services 200 in 2436ms
+ GET /services 200 in 109ms
+ ⨯ upstream image response failed for https://images.unsplash.com/photo-1584438784894-089d6a62b8f0?w=800&q=80 404
+ ○ Compiling /about ...
+ ✓ Compiled /about in 830ms (1628 modules)
+ GET /about 200 in 1144ms
+ GET / 200 in 112ms
+ ✓ Compiled in 4.1s (1652 modules)
+ GET / 200 in 462ms
+ ✓ Compiled in 1657ms (1652 modules)
+ GET / 200 in 438ms
+ ✓ Compiled in 3.5s (1674 modules)
+ GET / 200 in 2702ms
+ GET / 200 in 85ms
+ GET / 200 in 93ms
+ ○ Compiling /icon.png ...
+ ✓ Compiled /icon.png in 591ms (948 modules)
+ GET /icon.png?8911f933b063a79f 200 in 989ms
+ ✓ Compiled in 2.4s (1705 modules)
+ GET / 200 in 421ms
+ ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+ ✓ Compiled in 1171ms (1705 modules)
+ GET / 200 in 237ms
+ ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase

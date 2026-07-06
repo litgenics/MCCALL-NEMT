@@ -1,0 +1,19 @@
+---
+pid: 14376
+cwd: "C:\Leads\NEMT Website"
+command: "Set-Location \"C:\\Leads\\NEMT Website\"; npm install"
+started_at: 2026-07-06T18:21:11.219Z
+running_for_ms: 6064994  
+---
+
+added 333 packages, and audited 334 packages in 1m
+
+139 packages are looking for funding
+  run `npm fund` for details
+
+2 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.

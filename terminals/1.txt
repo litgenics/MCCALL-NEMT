@@ -1,0 +1,11 @@
+---
+pid: 17844
+cwd: "C:\Leads\NEMT Website"
+command: "Set-Location \"C:\\Leads\\NEMT Website\"; npx create-next-app@latest . --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --use-npm --no-turbopack"
+started_at: 2026-07-06T18:18:48.420Z
+running_for_ms: 6204993  
+---
+npm warn exec The following package was not found and will be installed: create-next-app@16.2.10
+Could not create a project called "NEMT Website" because of npm naming restrictions:
+    * name can only contain URL-friendly characters
+    * name can no longer contain capital letters

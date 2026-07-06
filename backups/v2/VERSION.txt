@@ -1,0 +1,10 @@
+McCall Ambulance Service Website
+Version: 2.0.0
+Label: v2
+Backed up: 2026-07-06 14:03:32
+Description: Logo integration, portrait video in hero, processed brand assets, multi-page site
+Changes from v1:
+- McCall logo in header, hero, footer, about page
+- Transparent PNG logo variants + favicon + OG image
+- Video1.mp4 in hero (portrait phone-frame player)
+- public/images and public/videos assets

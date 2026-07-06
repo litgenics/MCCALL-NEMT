@@ -1,0 +1,49 @@
+---
+pid: 12708
+cwd: "C:\Leads\NEMT Website"
+command: "Set-Location \"C:\\Leads\\NEMT Website\"; npm run dev"
+started_at: 2026-07-06T19:28:35.928Z
+running_for_ms: 2035000  
+---
+
+> mccall-ambulance@1.0.0 dev
+> next dev
+
+ ⚠ Port 3000 is in use by process 18480, using available port 3001 instead.
+   ▲ Next.js 15.5.20
+   - Local:        http://localhost:3001
+   - Network:      http://192.168.18.24:3001
+
+ ✓ Starting...
+node:events:502
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EPERM: operation not permitted, open 'C:\Leads\NEMT Website\.next\trace'
+Emitted 'error' event on WriteStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:169:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:128:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  errno: -4048,
+  code: 'EPERM',
+  syscall: 'open',
+  path: 'C:\\Leads\\NEMT Website\\.next\\trace'
+}
+
+Node.js v20.19.4
+node:events:502
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EPERM: operation not permitted, open 'C:\Leads\NEMT Website\.next\trace'
+Emitted 'error' event on WriteStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:169:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:128:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  errno: -4048,
+  code: 'EPERM',
+  syscall: 'open',
+  path: 'C:\\Leads\\NEMT Website\\.next\\trace'
+}
+
+Node.js v20.19.4

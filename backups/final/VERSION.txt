@@ -1,0 +1,14 @@
+McCall Ambulance Service Website
+Version: FINAL
+Label: final
+Backed up: 2026-07-06 14:59:32
+Description: Client-ready final version — full SEO, E-E-A-T, multi-page site
+
+Includes:
+- 27+ pages (services, areas, resources, how-to-book)
+- Logo integration + portrait video in hero
+- Team, safety, partnerships, enhanced testimonials
+- Schema markup (LocalBusiness, FAQ, Review, Service, Article)
+- sitemap.xml, robots.txt, unique meta per page
+- WhatsApp + phone + online booking CTAs
+- WCAG accessibility (skip link, focus states, reduced motion)

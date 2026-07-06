@@ -1,0 +1,20 @@
+---
+pid: 17476
+cwd: "C:\Leads\NEMT Website"
+command: "Set-Location \"C:\\Leads\\NEMT Website\"; npm run build"
+started_at: 2026-07-06T18:31:43.899Z
+running_for_ms: 5429998  
+---
+
+> mccall-ambulance@1.0.0 build
+> next build
+
+   ▲ Next.js 15.5.20
+
+   Creating an optimized production build ...
+uncaughtException [Error: EPERM: operation not permitted, open 'C:\Leads\NEMT Website\.next\trace'] {
+  errno: -4048,
+  code: 'EPERM',
+  syscall: 'open',
+  path: 'C:\\Leads\\NEMT Website\\.next\\trace'
+}
