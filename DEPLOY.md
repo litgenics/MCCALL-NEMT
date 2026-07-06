@@ -10,13 +10,15 @@
 
 1. Open **https://github.com/litgenics/MCCALL-NEMT/settings/pages**
 2. Under **Build and deployment** → **Source**: select **Deploy from a branch**
-3. **Branch:** `main`
-4. **Folder:** `/docs` ← important, not `/ (root)`
+3. **Branch:** `gh-pages`
+4. **Folder:** `/ (root)`
 5. Save
+
+The deploy workflow builds the site and pushes it to the `gh-pages` branch automatically.
 
 ### Deploy
 
-Pushes to `main` rebuild `docs/` automatically. To deploy manually:
+Pushes to `main` deploy automatically. To deploy manually:
 
 1. Go to **https://github.com/litgenics/MCCALL-NEMT/actions**
 2. Run **Deploy to GitHub Pages** → **Run workflow**

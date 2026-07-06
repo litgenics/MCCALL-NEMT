@@ -37,11 +37,9 @@ jobs:
       - name: Add .nojekyll for GitHub Pages
         run: touch ./out/.nojekyll
 
-      - name: Deploy to docs folder on main
+      - name: Deploy to gh-pages branch
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_branch: main
+          publish_branch: gh-pages
           publish_dir: ./out
-          destination_dir: docs
-          keep_files: false
