@@ -33,4 +33,12 @@ yarn-error.log*
 
 # typescript
 *.tsbuildinfo
-next-env.d.ts
+
+# backups & local artifacts
+/backups/
+/terminals/
+*.zip
+
+# source assets (copies exist in public/)
+/Mccall Logo.jpg
+/Video1.mp4

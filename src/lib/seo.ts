@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import { COMPANY } from "./constants";
 
-export const SITE_URL = "https://mccalltrans.com";
+export const SITE_URL =
+  process.env.NEXT_PUBLIC_SITE_URL || "https://litgenics.github.io/mccall-ambulance";
 
 export function absoluteUrl(path: string) {
   return `${SITE_URL}${path.startsWith("/") ? path : `/${path}`}`;
