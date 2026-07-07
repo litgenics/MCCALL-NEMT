@@ -5,7 +5,6 @@ import { motion } from "framer-motion";
 import { Check, Truck } from "lucide-react";
 import { FLEET } from "@/lib/constants";
 import { SectionHeader } from "./SectionHeader";
-import { VisualGallery } from "./VisualGallery";
 
 export function Fleet() {
   return (
@@ -55,8 +54,6 @@ export function Fleet() {
             </motion.article>
           ))}
         </div>
-
-        <VisualGallery />
       </div>
     </section>
   );
