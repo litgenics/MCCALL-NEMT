@@ -10,7 +10,7 @@ export function FAQ() {
   const [open, setOpen] = useState<number | null>(0);
 
   return (
-    <section id="faq" className="mesh-gradient py-24 sm:py-32">
+    <section id="faq" className="section-py mesh-gradient">
       <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
         <div className="text-center">
           <span className="text-sm font-semibold uppercase tracking-widest text-teal-600">
@@ -24,7 +24,7 @@ export function FAQ() {
           </h2>
         </div>
 
-        <div className="mt-12 space-y-3">
+        <div className="section-stack space-y-2.5">
           {FAQS.map((faq, i) => (
             <div
               key={faq.question}

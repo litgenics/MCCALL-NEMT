@@ -15,6 +15,7 @@ import { ServiceArea } from "@/components/ServiceArea";
 import { Testimonials } from "@/components/Testimonials";
 import { FAQ } from "@/components/FAQ";
 import { CTA } from "@/components/CTA";
+import { SectionDivider } from "@/components/SectionDivider";
 
 export default function Home() {
   return (
@@ -23,16 +24,21 @@ export default function Home() {
         <Hero />
         <TrustBar />
         <Services />
+        <SectionDivider />
         <AboutPreview />
+        <SectionDivider />
         <SafetyTrustSection />
+        <SectionDivider variant="dark" />
         <TeamSection />
         <PartnershipsSection />
         <Fleet />
+        <SectionDivider variant="dark" />
         <HowItWorks />
         <Insurance />
         <WhyUs />
         <FacilitiesPreview />
         <ServiceArea />
+        <SectionDivider />
         <Testimonials />
         <FAQ />
         <CTA />

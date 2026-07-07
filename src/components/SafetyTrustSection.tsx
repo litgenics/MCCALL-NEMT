@@ -16,9 +16,9 @@ const ICONS = [ShieldCheck, HeartPulse, Car, Accessibility, SprayCan, ClipboardC
 
 export function SafetyTrustSection() {
   return (
-    <section id="safety" className="bg-navy-950 py-24 sm:py-32">
+    <section id="safety" className="section-py bg-navy-950">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="grid items-start gap-12 lg:grid-cols-2 lg:gap-20">
+        <div className="grid items-start section-grid lg:grid-cols-2">
           <div>
             <span className="text-sm font-semibold uppercase tracking-widest text-teal-400">
               Safety &amp; Trust
@@ -35,7 +35,7 @@ export function SafetyTrustSection() {
               facilities across Greater Boston.
             </p>
 
-            <div className="mt-10 grid grid-cols-2 gap-4">
+            <div className="mt-7 grid grid-cols-2 gap-3">
               {PERFORMANCE_STATS.map((stat) => (
                 <div
                   key={stat.label}
@@ -59,7 +59,7 @@ export function SafetyTrustSection() {
                   whileInView={{ opacity: 1, x: 0 }}
                   viewport={{ once: true }}
                   transition={{ delay: i * 0.06 }}
-                  className="flex gap-4 rounded-xl border border-white/10 bg-white/5 p-5"
+                  className="flex gap-3 rounded-xl border border-white/10 bg-white/5 p-4"
                 >
                   <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-teal-500/20 text-teal-400">
                     <Icon className="h-5 w-5" aria-hidden />
@@ -76,7 +76,7 @@ export function SafetyTrustSection() {
           </div>
         </div>
 
-        <p className="mt-12 text-center">
+        <p className="mt-8 text-center">
           <Link
             href="/resources/nemt-safety-standards"
             className="text-sm font-semibold text-teal-400 transition hover:text-teal-300"

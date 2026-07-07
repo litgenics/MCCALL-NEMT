@@ -5,7 +5,7 @@ import { HOW_IT_WORKS } from "@/lib/constants";
 
 export function HowItWorks() {
   return (
-    <section id="how-it-works" className="bg-white py-24 sm:py-32">
+    <section id="how-it-works" className="section-py bg-white">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-2xl text-center">
           <span className="text-sm font-semibold uppercase tracking-widest text-teal-600">
@@ -23,10 +23,10 @@ export function HowItWorks() {
           </p>
         </div>
 
-        <div className="relative mt-16">
+        <div className="relative section-stack">
           <div className="absolute left-8 top-0 hidden h-full w-px bg-gradient-to-b from-teal-500 via-teal-300 to-transparent lg:left-1/2 lg:block" />
 
-          <div className="space-y-12 lg:space-y-0">
+          <div className="space-y-8 lg:space-y-0">
             {HOW_IT_WORKS.map((item, i) => (
               <motion.div
                 key={item.step}

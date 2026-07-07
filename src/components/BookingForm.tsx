@@ -136,7 +136,7 @@ export function BookingForm() {
   }
 
   return (
-    <div className="rounded-2xl border border-border bg-white p-6 shadow-xl sm:p-8">
+    <div className="card-compact rounded-2xl border border-border bg-white shadow-xl sm:p-6">
       <div className="mb-8 flex items-center justify-between">
         {STEPS.map((s) => (
           <div key={s.id} className="flex flex-1 flex-col items-center">

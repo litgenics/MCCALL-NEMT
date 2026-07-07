@@ -9,9 +9,9 @@ const ICONS = [Building2, Radio, FileCheck, Clock];
 
 export function FacilitiesPreview() {
   return (
-    <section className="bg-white py-24 sm:py-32">
+    <section className="section-py bg-white">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-20">
+        <div className="grid items-center section-grid lg:grid-cols-2">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -28,7 +28,7 @@ export function FacilitiesPreview() {
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                     transition={{ delay: i * 0.08 }}
-                    className="rounded-2xl border border-border bg-surface p-6 transition hover:border-teal-500/30 hover:shadow-md"
+                    className="card-compact rounded-2xl border border-border bg-surface transition hover:border-teal-500/30 hover:shadow-md"
                   >
                     <div className="mb-3 inline-flex h-10 w-10 items-center justify-center rounded-xl bg-teal-500/10 text-teal-600">
                       <Icon className="h-5 w-5" />

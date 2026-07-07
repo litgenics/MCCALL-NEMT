@@ -14,7 +14,7 @@ const TYPE_ICONS = {
 
 export function PartnershipsSection() {
   return (
-    <section className="mesh-gradient py-24 sm:py-32">
+    <section className="section-py mesh-gradient">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-2xl text-center">
           <span className="text-sm font-semibold uppercase tracking-widest text-teal-600">
@@ -32,7 +32,7 @@ export function PartnershipsSection() {
           </p>
         </div>
 
-        <div className="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="section-stack grid gap-3 sm:grid-cols-2 sm:gap-4 lg:grid-cols-4">
           {PARTNERSHIPS.map((partner, i) => {
             const Icon = TYPE_ICONS[partner.type as keyof typeof TYPE_ICONS] ?? Building2;
             return (
@@ -42,7 +42,7 @@ export function PartnershipsSection() {
                 whileInView={{ opacity: 1, scale: 1 }}
                 viewport={{ once: true }}
                 transition={{ delay: i * 0.05 }}
-                className="rounded-xl border border-border bg-white p-5 shadow-sm"
+                className="card-compact rounded-xl border border-border bg-white shadow-sm"
               >
                 <Icon className="h-5 w-5 text-teal-500" aria-hidden />
                 <h3 className="mt-3 font-bold text-navy-900">{partner.name}</h3>

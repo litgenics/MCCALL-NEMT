@@ -7,9 +7,9 @@ import { BookingForm } from "./BookingForm";
 
 export function CTA() {
   return (
-    <section id="book" className="bg-white py-24 sm:py-32">
+    <section id="book" className="section-py bg-white">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="grid items-start gap-12 lg:grid-cols-2 lg:gap-16">
+        <div className="grid items-start section-grid lg:grid-cols-2">
           <div>
             <span className="text-sm font-semibold uppercase tracking-widest text-teal-600">
               Book a Ride
@@ -25,7 +25,7 @@ export function CTA() {
               30 minutes. For same-day urgent requests, call us directly.
             </p>
 
-            <div className="mt-10 space-y-6">
+            <div className="mt-7 space-y-4">
               <a
                 href={COMPANY.phoneHref}
                 className="flex items-center gap-4 rounded-2xl border border-border bg-surface p-5 transition hover:border-teal-500/30 hover:shadow-md"

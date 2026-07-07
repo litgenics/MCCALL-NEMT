@@ -109,6 +109,32 @@
       linear-gradient(135deg, #0a1628 0%, #0f2140 40%, #152d52 100%);
   }
 
+  .hero-photo-overlay {
+    background:
+      linear-gradient(105deg, rgba(10, 22, 40, 0.92) 0%, rgba(10, 22, 40, 0.78) 45%, rgba(10, 22, 40, 0.55) 100%),
+      radial-gradient(ellipse 80% 60% at 85% 40%, rgba(20, 184, 166, 0.15), transparent);
+  }
+
+  .section-py {
+    @apply py-16 sm:py-20;
+  }
+
+  .section-py-compact {
+    @apply py-12 sm:py-16;
+  }
+
+  .section-grid {
+    @apply gap-8 lg:gap-12;
+  }
+
+  .card-compact {
+    @apply p-4 sm:p-5;
+  }
+
+  .section-stack {
+    @apply mt-10;
+  }
+
   .card-shine {
     position: relative;
     overflow: hidden;

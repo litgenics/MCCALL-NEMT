@@ -34,7 +34,7 @@ export function InsuranceChecker() {
     TRANSPORT_OPTIONS.find((t) => t.value === submittedService)?.label ?? "";
 
   return (
-    <div id="insurance-checker" className="mt-8 border-t border-border pt-8">
+    <div id="insurance-checker" className="mt-6 border-t border-border pt-6">
       <div className="flex items-start gap-3">
         <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-teal-500/10 text-teal-600">
           <ClipboardCheck className="h-5 w-5" />

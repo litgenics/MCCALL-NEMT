@@ -12,7 +12,7 @@ export function PageHero({
   description: string;
 }) {
   return (
-    <section className="hero-gradient relative overflow-hidden pt-28 pb-20 sm:pt-32 sm:pb-24">
+    <section className="hero-gradient relative overflow-hidden pt-24 pb-14 sm:pt-28 sm:pb-16">
       <div className="pointer-events-none absolute inset-0">
         <div className="absolute -right-32 top-10 h-72 w-72 rounded-full bg-teal-500/10 blur-3xl" />
         <div

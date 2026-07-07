@@ -149,6 +149,8 @@ export const TESTIMONIALS = [
     rating: 5,
     initials: "MR",
     facility: "DaVita Dialysis — Fields Corner",
+    photo:
+      "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=200&h=200&fit=crop&q=80",
   },
   {
     quote:
@@ -158,6 +160,8 @@ export const TESTIMONIALS = [
     rating: 5,
     initials: "JT",
     facility: "Boston Medical Center",
+    photo:
+      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop&q=80",
   },
   {
     quote:
@@ -167,6 +171,8 @@ export const TESTIMONIALS = [
     rating: 5,
     initials: "RK",
     facility: "Stretcher discharge transport",
+    photo:
+      "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200&h=200&fit=crop&q=80",
   },
 ] as const;
 

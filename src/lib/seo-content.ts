@@ -7,6 +7,8 @@ export const TEAM = [
     credentials: ["NREMT-B", "CPR/AED Instructor", "10+ years NEMT"],
     bio: "Oversees fleet safety, crew training, and dispatch operations. Former Boston EMS field supervisor.",
     initials: "MW",
+    photo:
+      "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400&h=400&fit=crop&q=80",
   },
   {
     name: "Angela Torres",
@@ -14,6 +16,8 @@ export const TEAM = [
     credentials: ["HIPAA Certified", "MassHealth NEMT Billing", "ADA Compliance"],
     bio: "Manages 24/7 scheduling, insurance verification, and facility coordination for 50+ partner clinics.",
     initials: "AT",
+    photo:
+      "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=400&fit=crop&q=80",
   },
   {
     name: "David Chen",
@@ -21,6 +25,8 @@ export const TEAM = [
     credentials: ["EMT-B", "Defensive Driving Certified", "ADA Passenger Assistance"],
     bio: "Specializes in wheelchair and bariatric transport with 8 years serving Dorchester and Roxbury families.",
     initials: "DC",
+    photo:
+      "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop&q=80",
   },
   {
     name: "Patricia O'Brien",
@@ -28,6 +34,8 @@ export const TEAM = [
     credentials: ["OSHA 10", "Infection Control", "MA DPH Licensed"],
     bio: "Leads vehicle sanitization protocols, background check program, and quarterly crew safety audits.",
     initials: "PO",
+    photo:
+      "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&h=400&fit=crop&q=80",
   },
 ] as const;
 

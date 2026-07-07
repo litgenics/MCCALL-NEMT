@@ -33,9 +33,9 @@ const REASONS = [
 
 export function WhyUs() {
   return (
-    <section className="bg-navy-950 py-24 sm:py-32">
+    <section className="section-py bg-navy-950">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="grid items-center gap-16 lg:grid-cols-2">
+        <div className="grid items-center gap-10 lg:grid-cols-2">
           <div>
             <span className="text-sm font-semibold uppercase tracking-widest text-teal-400">
               Why McCall
@@ -53,7 +53,7 @@ export function WhyUs() {
               hospitals and clinics you visit most.
             </p>
 
-            <div className="mt-8 rounded-2xl border border-white/10 bg-white/5 p-6 backdrop-blur-sm">
+            <div className="mt-6 rounded-2xl border border-white/10 bg-white/5 p-4 backdrop-blur-sm">
               <p className="text-sm font-medium text-teal-300">Emergency?</p>
               <p className="mt-2 text-2xl font-bold text-white">Call 911</p>
               <p className="mt-2 text-sm text-white/50">
@@ -71,7 +71,7 @@ export function WhyUs() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: i * 0.1 }}
-                className="rounded-2xl border border-white/10 bg-white/5 p-6 backdrop-blur-sm transition hover:border-teal-500/30 hover:bg-white/10"
+                className="card-compact rounded-2xl border border-white/10 bg-white/5 backdrop-blur-sm transition hover:border-teal-500/30 hover:bg-white/10"
               >
                 <div className="mb-4 inline-flex h-10 w-10 items-center justify-center rounded-lg bg-teal-500/20 text-teal-400">
                   <reason.icon className="h-5 w-5" />

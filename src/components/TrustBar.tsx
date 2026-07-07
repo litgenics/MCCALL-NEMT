@@ -8,7 +8,7 @@ const ICONS = [BadgeCheck, HeartPulse, Lock, Accessibility, FileCheck];
 
 export function TrustBar() {
   return (
-    <section className="border-y border-border bg-white py-6">
+    <section className="border-y border-border bg-white py-4">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex flex-wrap items-center justify-center gap-x-8 gap-y-4">
           {TRUST_BADGES.map((badge, i) => {

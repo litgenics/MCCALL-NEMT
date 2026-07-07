@@ -7,9 +7,9 @@ import { InsuranceChecker } from "@/components/InsuranceChecker";
 
 export function Insurance() {
   return (
-    <section className="mesh-gradient py-24 sm:py-32">
+    <section className="section-py mesh-gradient">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="grid items-start gap-12 lg:grid-cols-2 lg:gap-20">
+        <div className="grid items-start section-grid lg:grid-cols-2">
           <div>
             <span className="text-sm font-semibold uppercase tracking-widest text-teal-600">
               Insurance &amp; Billing
@@ -26,7 +26,7 @@ export function Insurance() {
               plan directly whenever possible.
             </p>
 
-            <div className="mt-10 space-y-5">
+            <div className="mt-7 space-y-4">
               {[
                 {
                   icon: ShieldCheck,
@@ -68,7 +68,7 @@ export function Insurance() {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="rounded-2xl border border-border bg-white p-8 shadow-lg"
+            className="card-compact rounded-2xl border border-border bg-white shadow-lg"
           >
             <h3 className="text-lg font-bold text-navy-900">Accepted plans &amp; payment</h3>
             <p className="mt-2 text-sm text-muted">
