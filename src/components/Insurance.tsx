@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import { ShieldCheck, FileText, HelpCircle } from "lucide-react";
 import { INSURANCE_PLANS } from "@/lib/constants";
+import { InsuranceChecker } from "@/components/InsuranceChecker";
 
 export function Insurance() {
   return (
@@ -87,6 +88,9 @@ export function Insurance() {
                 </motion.span>
               ))}
             </div>
+
+            <InsuranceChecker />
+
             <p className="mt-6 rounded-xl bg-amber-500/10 px-4 py-3 text-sm text-amber-800">
               Don&apos;t see your plan? Contact us — we may still be able to help
               or arrange private-pay options.
